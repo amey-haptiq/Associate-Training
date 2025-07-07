@@ -26,7 +26,7 @@ header{
 
 }
 .container{
-    width:1200px;
+    width:1600px;
     display:flex;
     justify-content: space-evenly;
     
@@ -37,7 +37,7 @@ header{
 .banner-first-half{
     width:40%;
 
-    margin-left:150px;
+    margin-left:100px;
 
 }
 .banner-first-half h1{
@@ -91,7 +91,7 @@ header{
 }
 .container-recent-Posts{
     display:flex;
-    width:1200px;
+    width:1600px;
     
     margin:0 auto;
     justify-content: space-evenly;
@@ -124,13 +124,13 @@ header{
 
 }
 .heading h5{
-   margin-left: 135px;
+   margin-left: 185px;
     font-size: 22px;
     margin-top:20px;
     
 }
 .heading a{
-    margin-left:700px;
+    margin-left:1000px;
     font-size: 16px;
     margin-top:30px;
     color:blue;
@@ -138,7 +138,7 @@ header{
     
 }
 .container1{
-    width:1200px;
+    width:1600px;
     
     margin:30px auto;
 
@@ -148,7 +148,7 @@ header{
     
 }
 .container-contents{
-    width:1200px;
+    width:1600px;
     
     margin:30px auto;
 
@@ -157,7 +157,7 @@ header{
     
     display:flex;
     
-    margin:40px 200px;
+    margin:40px 180px;
 }
 .content-image{
     width:246px;
