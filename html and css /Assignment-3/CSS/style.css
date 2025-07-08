@@ -41,7 +41,7 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    
+    margin-bottom: 50px;
     
 
 }
@@ -54,9 +54,53 @@ body{
 
   
     
-
-
 .bannerDesc{
+    width:100%;
+    margin: auto;
+    display:flex;
+    flex-direction: column;
+    height:100%;
+    
+    
+}
+.bannerDesc h1{
+    margin-bottom: 40px;
+    color:white;
+    margin-top: 200px;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 700;
+}
+.bannerDesc p{
+    margin-bottom:50px;
+    color:white;
+    font-size: 16px;
+    font-weight: 400;
+} 
+.bannerDesc .bannerButton{
+    display:flex;
+    width:192px;
+    height:56px;
+    align-items: center;
+    justify-content: center;
+    background-color: #6C00FF;
+    margin:0 auto;
+    border-radius:30px;
+}
+.bannerDesc .playCircleImage{
+    display: flex;
+    width:20px;
+    height:20px;
+    
+}
+.bannerButton a{
+    text-decoration: none;
+    color:white;
+    margin-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+/*.bannerDesc{
     width:100%;
     margin-top:-650px;
     margin-bottom: 400px;
@@ -98,7 +142,7 @@ body{
     margin-left: 15px;
     font-size: 16px;
     font-weight: 600;
-}
+}*/
 .services{
     width:100%;
     
