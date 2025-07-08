@@ -223,6 +223,9 @@ body{
     
     
 }
+.featurePoint p{
+    margin-left: 15px;
+}
 .featureImageSection{
     display: flex;
     justify-content: center;
