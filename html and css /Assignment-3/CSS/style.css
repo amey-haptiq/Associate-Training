@@ -5,19 +5,19 @@
 }
 body{
     color:#222831;
-    font-family: 'Matter','Sans-serif';
+    font-family: 'DM','Sans-serif';
 }
-.header{
+.header .container{
     display:flex;
     color:white;
-    border:1px solid green;
+    
     justify-content: space-around;
     margin-top:30px;
     align-items: center;
     
 
 }
-.header a{
+ .header .container .logo{
     color:white;
     font-size:36px;
     text-decoration: none;
@@ -123,49 +123,7 @@ body{
     font-size: 16px;
     font-weight: 600;
 }
-/*.bannerDesc{
-    width:100%;
-    margin-top:-650px;
-    margin-bottom: 400px;
-}
-.bannerDesc h1{
 
-    margin-bottom: 40px;
-    color:white;
-    
-    text-align: center;
-    font-size: 72px;
-    font-weight: 700;
-}
-.bannerDesc p{
-    margin-bottom:50px;
-    color:white;
-    font-size: 16px;
-    font-weight: 400;
-} 
-.bannerDesc .bannerButton{
-    display:flex;
-    width:192px;
-    height:56px;
-    align-items: center;
-    justify-content: center;
-    background-color: #6C00FF;
-    margin:0 auto;
-    border-radius:30px;
-}
-.bannerDesc .playCircleImage{
-    display: flex;
-    width:20px;
-    height:20px;
-    
-}
-.bannerButton a{
-    text-decoration: none;
-    color:white;
-    margin-left: 15px;
-    font-size: 16px;
-    font-weight: 600;
-}*/
 .services{
     width:100%;
     
@@ -180,6 +138,9 @@ body{
 .servicesHeading span{
     display:block;
     text-align: center;
+    font-size: 14px;
+    font-weight: 600;
+    color:#6C00FF;
     margin-bottom: 20px;
 }
 .servicesCards{
