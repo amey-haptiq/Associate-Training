@@ -6,78 +6,85 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
-        <link href="https://fonts.googleapis.com/css2?family=Matter:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Matter:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <div class="header">
         <h1>Corp.</h1>
         <ul>
-            <li class="homeSelected">Home</li>
-            <li>Services</li>
-            <li>Features</li>
-            <li>Testimonials</li>
-            <li>Contact</li>
+            <li ><a href="#" class="active">Home</a></li>
+            <li><a href="#">Services</a> </li>
+            <li><a href="#">Features</a></li>
+            <li><a href="#">Testimonials</a></li>
+            <li><a href="#">Contact</a></li>
         </ul>
     </div>
-    
-    <div class="banner">
 
-         <div class="container">
-            <div class="bannerDesc">
-                <div>
-                    <h1>Perfect Landing Page Design Tutorial</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                        labore
-                        et dolore magna aliqua. Ut enim ad minim veniam.</p>
-                    <div class="bannerButton">
-                        <div class="playCircleImage"><img src="Images/play-circle.png" alt="play circle image"></div>
-                        <a href="#">Watch now</a>
+    <section class="banner">
+
+        <div class="container bannerDesc">
+            <div class="">
+
+                <h1>Perfect Landing Page Design Tutorial</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                    labore
+                    et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                <div class="bannerButton">
+                    <div class="playCircleImage"><img src="Images/play-circle.png" alt="play circle image"></div>
+                    <a href="#">Watch Intro</a>
+                </div>
+
+            </div>
+        </div>
+
+        </div>
+    </section>
+        <section class="services">
+            <div class="container">
+
+                <div class="servicesHeading">
+                    <span>Services</span>
+                    <h2>What we do</h2>
+                </div>
+
+                <div class="servicesCards">
+                    <!--card1-->
+                    <div class="serviceCard">
+                        <div class="serviceCardImage"><img src="Images/mobile.5 1.png" alt="mobile image"></div>
+                        <h3>Mobile App Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+
+
+                    <!--card2-->
+                    <div class="serviceCard">
+                        <div class="serviceCardImage"><img src="Images/monitor.5 1.png" alt="mobile image"></div>
+                        <h3>Website Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+                    </div>
+
+                    <!--card3-->
+                    <div class="serviceCard">
+                        <div class="serviceCardImage"><img src="Images/box.10 1.png" alt="mobile image"></div>
+                        <h3>Packaging Design</h3>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
+        <section class="features">
+            <div class="container">
+                <div class="feature">
+                    <div class="featureDescription">
+                        <span>FEATURE 1</span>
+                        <h1>Designed for individuals</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
 
-    </div>
-   
-
-    <div class="container">
-        <div class="services">
-        <div class="servicesHeading">
-        <label>Services</label>
-        <h2>What we do</h2></div>
-
-        <div class="servicesCards">
-            <!--card1-->
-            <div class="serviceCard">
-                <div class="serviceCardImage"><img src="Images/mobile.5 1.png" alt="mobile image"></div>
-                <h3>Mobile App Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-            
-        
-          <!--card2-->
-         <div class="serviceCard">
-                <div class="serviceCardImage"><img src="Images/monitor.5 1.png" alt="mobile image"></div>
-                <h3>Website Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        
-          <!--card3-->
-         <div class="serviceCard">
-                <div class="serviceCardImage"><img src="Images/box.10 1.png" alt="mobile image"></div>
-                <h3>Packaging Design</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-            </div>
-        </div>
-        </div>
-        <div class="features">
-            <div class="feature">
-                <div class="featureDescription">
-                    <label>FEATURE 1</label>
-                    <h1>Designed for individuals</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    
                         <div class="featurePoint">
                             <img src="Images/validation-check.2 1.png" alt="point image">&nbsp; &nbsp;
                             <p>Some cool features</p>
@@ -90,30 +97,31 @@
                             <img src="Images/validation-check.2 1.png" alt="point image">&nbsp; &nbsp;
                             <p>Which will amazed you</p>
                         </div>
-                    
-                </div>
-                <div class="featureImageSection">
-                    <div class="featureOneImage">
+
+                    </div>
+                    <div class="featureImageSection">
+                        <div class="featureOneImage">
                             <img src="Images/img1.jpg" alt="Image1">
 
+                        </div>
                     </div>
                 </div>
-            </div>
 
 
 
-             <div class="feature">
-                  <div class="featureImageSection">
-                    <div class="featureTwoImage">
+                <div class="feature">
+                    <div class="featureImageSection">
+                        <div class="featureTwoImage">
                             <img src="Images/img2.jpg" alt="Image1">
 
+                        </div>
                     </div>
-                </div>
-                <div class="featureDescription">
-                    <label>FEATURE 1</label>
-                    <h1>Designed for big and small business</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.</p>
-                    
+                    <div class="featureDescription">
+                        <span>FEATURE 1</span>
+                        <h1>Designed for big and small business</h1>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.
+                        </p>
+
                         <div class="featurePoint">
                             <img src="Images/validation-check.2 1.png" alt="point image">&nbsp; &nbsp;
                             <p>Some cool features</p>
@@ -126,25 +134,27 @@
                             <img src="Images/validation-check.2 1.png" alt="point image">&nbsp; &nbsp;
                             <p>Which will amazed you</p>
                         </div>
-                    
+
+                    </div>
+
                 </div>
-              
             </div>
-        </div>
-    </div>
-    <div class="container">
-    <div class="footer">
-        <div class="footerImage"><img src="Images/footerimg.png" alt="Footer Image"></div>
-        <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">Services</a></li>
-            <li><a href="">Features</a></li>
-            <li><a href="">Testimonials</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-        <p>Copyright © 2023 Destiny Inc. All Rights Reserved.</p>
-    </div>
-    </div>
+        </section>
+        <section class="footer">
+            <div class="container">
+
+                <div class="footerImage"><img src="Images/footerimg.png" alt="Footer Image"></div>
+                <ul>
+                    <li><a href="">Home</a></li>
+                    <li><a href="">Services</a></li>
+                    <li><a href="">Features</a></li>
+                    <li><a href="">Testimonials</a></li>
+                    <li><a href="">Contact</a></li>
+                </ul>
+                <p>Copyright © 2023 Destiny Inc. All Rights Reserved.</p>
+            </div>
+            </div>
+        </section>
 </body>
 
 </html>
