@@ -61,7 +61,7 @@ body{
 }
 .loginBtn:hover{
     border:1px solid white;
-    padding:30px;
+    padding:10px;
     border-radius:20px;
 }
 .becomeMemberBtn{
