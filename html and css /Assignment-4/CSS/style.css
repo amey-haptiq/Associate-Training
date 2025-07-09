@@ -35,6 +35,10 @@ body{
     text-decoration: none;
     color:#fff;
     margin-left:30px;
+    font-size: 14px ;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    font-weight: 600;
 
     
     
@@ -56,7 +60,10 @@ body{
 
 .headerButtons .loginBtn{
     color:white;
-    
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
     text-decoration: none;
 }
 .loginBtn:hover{
@@ -68,13 +75,16 @@ body{
   display: flex;
   gap: 40px;
   background-color: #23A6F0;
-  padding:15px 25px;
+  padding:15px;
 
 
 }
 .becomeMemberBtn a{
     font-size: 14px;
     text-decoration: none;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.2px;
     color:white;
     
 }
@@ -104,6 +114,8 @@ body{
     font-size:58px;
     font-weight: 800;
     margin-bottom:30px;
+    line-height: 80px;
+    letter-spacing: 0.2px;
     color:white;
 }
 .bannerDesc p{
@@ -111,6 +123,8 @@ body{
     font-weight: 500;
     color:white;
     margin-bottom: 50px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
 }
 .quoteBtn{
     color:white;
@@ -139,11 +153,16 @@ body{
     background-color: #252B42;
     display:flex;
     flex-direction: column;
-    padding:200px;
+    
+    
+}
+.features .container{
+    padding:100px;
     
 }
 
 .featureCards{
+    
     display: flex;
     justify-content: space-evenly;
     width:100%;
