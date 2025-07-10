@@ -10,12 +10,16 @@ body{
     margin:0 auto;
     
 }
-.header .container{
+header .container{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     margin-top:20px;
   
+}
+
+.mobileHeader{
+    display:none;
 }
 
 .logo{
@@ -193,7 +197,7 @@ body{
     color:#fff;
     font-size:14px;
     font-weight:500px;
-    text-align: start;
+    
 }
 .testimonialOne{
   background-color: #8EC2F2;
@@ -263,12 +267,13 @@ body{
 }
 .testimonialTwoCards{
     display:flex;
+    gap:30px;
     
-    justify-content: space-evenly;
+    
     
 }
 .testimonialTwoCard{
-    width:280px;
+    
     height:452px;
     position: relative;
     
@@ -364,7 +369,7 @@ body{
 
 footer .container{
     display: flex;
-    gap: 700px;
+    justify-content: space-between;
     padding:30px;
     
 }
@@ -379,5 +384,257 @@ footer .container p{
 
 }
 
+
+/* for mobile screen */
+
+@media  screen and (max-width:768px) {
+    .container{
+        max-width: 768px;
+        
+    }
+    header .container{
+        
+        background-color: #252B42;
+        display:block;
+    
+
+    }
+    header .container .logo{
+      display:none;
+
+        
+    }
+    .mobileHeader{
+        padding:20px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .mobileHeader a{
+        text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    }
+    
+    
+    .navIcons img{
+        margin:0 12px;
+    }
+    .navlinks a{
+        display: block;
+        margin-bottom: 30px;
+        color:white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.2px;
+    }
+    .navlinks a:hover{
+        border:none;
+        color:#23A6F0;
+        padding:0%;
+    }
+    .headerButtons{
+        visibility: hidden;
+    }
+    .bannerDesc{
+        align-items: center;
+    }
+    .bannerDesc h1{
+        text-align: center;
+    }
+    .bannerDesc p{
+        text-align: center;
+    }
+    .quoteBtn{
+        display:block;
+        width:150px;
+        height:40px;
+        border-radius:30px;
+        padding:10px 0 0 0;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    .learnNowBtn{
+        display:block;
+        width:150px;
+        height:40px;
+        padding: 10px 0 0 0;
+        text-align: center;
+    }
+    .featureCards{
+        display: flex;
+        flex-direction:column;
+        gap: 50px;
+        align-items: center;
+    }
+    
+    .testimonialOneCards{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .testinomialCardOneImage{
+        display:none;
+    }
+    .testimonialOneCard{
+        width:50%;
+    }
+    .testimonialTwoCards{
+        flex-direction:column;
+        gap:40px;
+        align-items: center;
+    }
+    .testimonialTwoCard{
+        width:322px;
+    }
+    .footerLinksWrapper{
+       flex-direction: column;
+       
+    }
+}
+
+@media   (min-width:769px) and (max-width:991px) {
+     .container{
+        min-width: 769px;
+        max-width: 991px;
+        
+    }
+    header .container{
+        
+        background-color: #252B42;
+        display:block;
+    
+
+    }
+    header .container .logo{
+      display:none;
+
+        
+    }
+    .mobileHeader{
+        padding:20px;
+        display:flex;
+        justify-content: space-between;
+    }
+    .mobileHeader a{
+        text-decoration: none;
+    color:#fff;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0.1px;
+    }
+    
+    
+    .navIcons img{
+        margin:0 12px;
+    }
+    .navlinks a{
+        display: block;
+        margin-bottom: 30px;
+        color:white;
+        text-align: center;
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 45px;
+        letter-spacing: 0.2px;
+    }
+    .navlinks a:hover{
+        border:none;
+        color:#23A6F0;
+        padding:0%;
+    }
+    .headerButtons{
+        visibility: hidden;
+    }
+    .bannerDesc{
+        align-items: center;
+    }
+    .bannerDesc h1{
+        text-align: center;
+    }
+    .bannerDesc p{
+        text-align: center;
+    }
+    .quoteBtn{
+        display:block;
+        width:150px;
+        height:40px;
+        border-radius:30px;
+        padding:10px 0 0 0;
+        text-align: center;
+        margin-bottom: 30px;
+        
+    }
+    .learnNowBtn{
+        display:block;
+        width:150px;
+        height:40px;
+        padding: 10px 0 0 0;
+        text-align: center;
+    }
+    .features .container{
+        padding:20px;
+    }
+    .featureCards{
+        display: flex;
+        flex-direction:column;
+        gap:50px;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    
+
+    
+    .testimonialOneCards{
+        display:flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        gap:20px;
+    }
+    .testinomialCardOneImage{
+        display:none;
+    }
+    .testimonialOneCard{
+        width:50%;
+    }
+    .testimonialTwoCards{
+        flex-direction:column;
+        gap:40px;
+        align-items: center;
+    }
+    .testimonialTwoCard{
+        width:80%;
+
+    }
+    .testimonialTwoCard:hover{
+        border:5px solid #23A6F0;
+        opacity:0.8;
+    }
+    .testimonialTwoCardImageDesc{
+        left:20px;
+    }
+    .footerLinksWrapper{
+       display:grid;
+       grid-template-columns: 1fr 1fr 1fr;
+       grid-template-rows: 2fr 2fr;
+       gap:10px;
+
+       
+    }
+    .footerLinksWrapper ul{
+        
+        width:200px;
+    }
+}
 
 
