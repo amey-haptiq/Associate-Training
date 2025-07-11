@@ -279,6 +279,11 @@ header{
         align-items: center;
         justify-content: center;
     }
+    .post h2{
+        font-size:22px;
+        line-height: 30px;
+        font-weight: 700;
+    }
     .postHeading a{
         display:none;
 
@@ -346,6 +351,12 @@ header{
         height:180px;
         margin-bottom: 34px;
     }
+      .post h2{
+        font-size:22px;
+        line-height: 30px;
+        font-weight: 700;
+    }
+     
     .posts{
         flex-direction:column;
         align-items: center;
@@ -419,6 +430,11 @@ header{
         height:180px;
         margin-bottom: 34px;
     }
+      .post h2{
+        font-size:22px;
+        line-height: 30px;
+        font-weight: 700;
+    }
     .posts{
         flex-direction:column;
         align-items: center;
@@ -485,6 +501,11 @@ header{
         display:block;
         margin:0 auto;
         width:208px;
+    }
+      .post h2{
+        font-size:22px;
+        line-height: 30px;
+        font-weight: 700;
     }
     .bannerImage{
         width:174.38px;
