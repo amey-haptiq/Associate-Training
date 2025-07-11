@@ -244,4 +244,55 @@ header{
 
 
 
+@media(max-width:768px){
+    .container{
+        max-width:768px;
+    }
+    .banner .container{
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .bannerFirstHalf h1{
+        text-align: center;
+    }
+    .bannerFirstHalf p{
+        text-align: center;
+    }
+    .bannerFirstHalf a{
+        display:block;
+        margin:0 auto;
+        width:208px;
+    }
+    .posts{
+        flex-direction:column;
+        align-items: center;
+        justify-content: center;
+    }
+    .postHeading a{
+        display:none;
 
+    }
+    .postHeading h5{
+        width:100%;
+        display: block;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .contents .container{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .content{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:339px;
+    }
+    
+    .contentImage{
+        width:339px;
+        height:180px;
+    }
+
+}
