@@ -19,10 +19,10 @@ header{
     margin-right:55px;
     font-size:20px;
 }
-.banner{
-    width:100%;
+.banner .container{
+    
     display:flex;
-    justify-content: center;
+    justify-content: space-evenly;
     margin-bottom: 40px;
     
     
@@ -31,8 +31,7 @@ header{
 }
 .container{
     width:1200px;
-    display:flex;
-    justify-content: center;
+    margin:0 auto;
     
 
     
@@ -41,13 +40,13 @@ header{
     
 
 }
-.banner-First-Half{
+.bannerFirstHalf{
     width:60%;
     
     margin-left:30px;
 
 }
-.banner-First-Half h1{
+.bannerFirstHalf h1{
     font-size:44px;
     margin-bottom: 30px;
     font-weight: 700;
@@ -55,7 +54,7 @@ header{
 
     
 }
-.banner-First-Half p{
+.bannerFirstHalf p{
     font-size:16px;
     margin-bottom: 40px;
     font-weight: 400;
@@ -63,18 +62,23 @@ header{
     
 
 }
-.banner-First-Half a{
+.bannerFirstHalf a{
     
     font-size:20px;
-    padding:8px;
+    width:218px;
+    height:37px;
+    padding-top: 10px;
+    text-align: center;
     margin-bottom: 20px;
-    border-radius: 0px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
     background-color: #FF6464;
     color:white;
     opacity:0.9;
     text-decoration: none;
 }
-.banner-Second-Half{
+.bannerSecondHalf{
    width:40%;
    display:flex;
    justify-content: center;
@@ -82,13 +86,13 @@ header{
    
    
 }
-.banner-Image{
+.bannerImage{
     width:243px;
     height:243px;
     
    
 }
-.banner-Image img{
+.bannerImage img{
     
     object-fit: cover;
      
@@ -97,7 +101,7 @@ header{
     border-radius: 50%;
     
 }
-.recent-Posts{
+.recentPosts{
     width:100%;
     background-color: #EDF7FA;
     margin-bottom: 30px;
@@ -120,6 +124,10 @@ header{
     margin:10px;
     background-color: white;
 }
+.posts{
+    display:flex;
+    justify-content: space-evenly;
+}
 .post h2{
     font-size: 26px;
     margin-bottom:10px;
@@ -133,18 +141,26 @@ header{
     
 
 }
-.heading-Post-Container{
+.postSpans{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 22px;
+}
+.postHeading{
     display:flex;
     margin-bottom:25px;
+    justify-content: space-between;
+    align-items: center;
 
 }
-.heading-Post-Container h5{
-   margin-left: 13px;
+.postHeading h5{
+   
     font-size: 22px;
-    margin-top:20px;
+    padding-top: 10px;
+    
     
 }
-.heading-Post-Container a{
+.postHeading a{
     margin-left:980px;
     font-size: 16px;
     margin-top:30px;
@@ -152,23 +168,13 @@ header{
     text-decoration: none;
     
 }
-.container-Heading{
-    width:1200px;
-    
-    margin:0 auto;
 
-}
 .contents{
     width:100%;
     
 }
-.container-Contents{
-    width:1200px;
-    
-    margin:0 auto;
 
-}
-.container-Contents h3{
+.contents .container h3{
     font-size: 22px;
     font-weight:400;
 }
@@ -178,35 +184,38 @@ header{
     
     margin:20px 0;
 }
-.content-Image{
+.contentImage{
     width:246px;
     height:180px;
     
 
 }
-.content-Desc{
+.contentDesc{
     
     margin-left:25px;
     
     
 }
-.content-Image img{
+.contentImage img{
     width:100%;
     height:100%;
     object-fit: cover;
     border-radius:10px;
     
 }
-.content-Desc span{
+.contentSpans{
     font-size:16px;
     margin-bottom: 20px;
+    display: flex;
+    gap:20px;
+
 }
-.content-Desc p{
+.contentDesc p{
     font-size: 16px;
     margin-top:20px;
     margin-bottom:20px;
 }
-.content-Desc h2{
+.contentDesc h2{
     margin-bottom: 20px;
 }
 .year{
@@ -215,22 +224,14 @@ header{
     padding:6px;
     border-radius: 35px;
 }
-.footer-Container{
-    width:100%;
-}
-.footer{
-    margin:0 auto;
-    
 
 
-
-}
-.link-Wrapper{
+.linkWrapper{
     display:flex;
     justify-content: center;
     
 }
-.link-Wrapper img{
+.linkWrapper img{
     margin:10px;
     
 }
