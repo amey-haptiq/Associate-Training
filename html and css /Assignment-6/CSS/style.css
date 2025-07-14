@@ -3,6 +3,12 @@
     padding:0;
 
 }
+h1,h2,h3{
+    font-family: "Crimson Text", serif;;
+}
+p,span{
+    font-family: "Work Sans", sans-serif;;
+}
 .container{
     max-width:1180px;
     padding:16px;
@@ -50,16 +56,17 @@ header .container{
     display: flex;
     gap:30px;
     width:100%;
-    
+    align-items: center;
     margin-bottom: 30px;
     
-    align-items: center;
+    
 
     
 
 }
+
 .bannerFirstHalf{
-    width:40%;
+    width:50%;
    
 }
 
@@ -288,7 +295,8 @@ footer .container p{
 }
 .service{
     
-    width:30%;
+    width:339px;
+    height:542px;
     box-shadow: 4px 5px #00000040;
     border-top: 1px solid #00000040;
     border-left: 1px solid #00000040;
@@ -319,7 +327,7 @@ footer .container p{
     display:flex;
     align-items: center;
     gap:15px;
-    margin-bottom: 10px;
+    margin-bottom: 14px;
 }
 .service a{
     width:100%;
@@ -356,7 +364,9 @@ margin :0 0;}
 .banner .container{
     flex-direction: column-reverse;
     justify-content: center;
+    
 }
+
 .bannerFirstHalf{
     width:50%;
     align-items: flex-start;
