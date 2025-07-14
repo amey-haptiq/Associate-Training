@@ -26,7 +26,11 @@ header .container{
 }
 .logo{
     display:flex;
-    gap:10px;
+    align-items: center;
+    
+}
+.logoImage{
+    width:70px;
 }
 .logo a{
     font-size: 40px;
@@ -34,6 +38,9 @@ header .container{
     line-height: 125%;
     color:#fff;
     text-decoration: none;
+    padding:20px;
+    border-radius: 25px;
+    display:inline-block;
 }
 .navlinks ul{
   display:flex;
@@ -109,6 +116,12 @@ header .container{
     align-items: center;
     justify-content: center;
     width:50%;
+}
+.bannerImage{
+    max-width:645px;
+}
+.bannerImage img{
+    width:100%;
 }
 
 .contentOne .container{
@@ -201,12 +214,16 @@ header .container{
     line-height: 125%;
     
 }
+.contentTwoImage{
+    max-width:600px
+}
 
 .contentThree .container{
     display:flex;
     flex-direction: row-reverse;
     align-items: center;
     margin-bottom: 102.27px;
+    gap:40px;
 }
 .teamMembers{
     display:flex;
@@ -438,6 +455,7 @@ margin :0 0;}
 }
 .contentThree .container{
     flex-direction: column;
+    
 }
 .contentFirstHalf{
     width:50%;
