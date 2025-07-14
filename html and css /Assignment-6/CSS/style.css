@@ -355,6 +355,61 @@ footer .container p{
     text-align: center;
 
 }
+@media(max-width:991px){
+.container{
+max-width: 991px;
+padding:20px;
+margin :0 0;}
+
+.banner .container{
+    flex-direction: column-reverse;
+    justify-content: center;
+    
+}
+
+.bannerFirstHalf{
+    width:50%;
+    align-items: flex-start;
+    margin:0 0;
+
+    
+}
+.contentOneImages{
+    flex-direction: column;
+    align-items: center;
+}
+.contentTwo .container{
+    flex-direction: column;
+}
+.contentThree .container{
+    flex-direction: column;
+}
+.contentFirstHalf{
+    width:50%;
+
+}
+.contentSecondHalf{
+    width:50%;
+}
+.contentSecondHalf{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.teamMembers{
+    flex-direction: column;
+}
+footer .container{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    gap:10px;
+}
+.servicesWrapper{
+    flex-direction: column;
+    align-items: center;
+}
+}
 @media(max-width:768px){
 .container{
 max-width: 768px;
