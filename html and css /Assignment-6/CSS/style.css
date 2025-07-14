@@ -24,6 +24,9 @@ header .container{
     padding-top: 35px;
     margin-bottom: 40px;
 }
+.mobileHeader{
+    display:none;
+}
 .logo{
     display:flex;
     align-items: center;
@@ -38,8 +41,7 @@ header .container{
     line-height: 125%;
     color:#fff;
     text-decoration: none;
-    padding:20px;
-    border-radius: 25px;
+    
     display:inline-block;
 }
 .navlinks ul{
@@ -53,6 +55,8 @@ header .container{
     text-decoration: none;
     font-size: 20px;
     color:#fff;
+    padding:10px 50px;
+    border-radius: 5px;
 }
 .banner{
     background-color: #74C69D;
@@ -192,7 +196,7 @@ header .container{
    
 }
 .contentSecondHalf h2{
-    margin-bottom:20px;
+    margin-bottom:40px;
     font-size: 40px;
     font-weight: 800;
     line-height: 125%;
@@ -383,6 +387,12 @@ margin :0 0;}
     justify-content: center;
     
 }
+.navlinks{
+    display:none;
+}
+.mobileHeader{
+    display: block;
+}
 
 .bannerFirstHalf{
     width:50%;
@@ -437,6 +447,12 @@ margin :0 0;}
     flex-direction: column-reverse;
     justify-content: center;
     
+}
+.mobileHeader{
+    display:block;
+}
+.navlinks{
+    display:none;
 }
 
 .bannerFirstHalf{
