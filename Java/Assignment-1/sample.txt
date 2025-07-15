@@ -1,0 +1,3 @@
+
+Student Name:Amey Maths Marks:89 Physics Marks:89 Chemistry Marks:89 Obtained Marks267 Total Marks:300Percentage:89 Grade:O Status:Pass
+Student Name:Prashant Maths Marks:98 Physics Marks:98 Chemistry Marks:98 Obtained Marks294 Total Marks:300Percentage:98 Grade:O Status:Pass
