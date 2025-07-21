@@ -1,0 +1,19 @@
+
+
+
+Student Name:Amey kulkarni
+Class:12th class
+Stream:Science 
+Physics : 78 Chemistry : 67 Maths : 88
+Obtained Marks:233
+Percentage:77.666664
+ Grade:First Class with distinction(A)
+Status:Pass
+
+Student Name:Sandeep Joshi
+Class:12th class
+Stream:sciencePhysics : 66chemistry : 77Maths : 88Biology : 98
+Obtained Marks:329
+Percentage:82.25
+ Grade:Outstanding(O)
+Status:Pass
