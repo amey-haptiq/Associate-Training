@@ -36,8 +36,3 @@ build/
 
 ### Mac OS ###
 .DS_Store
-.idea
-.mvn
-pom.xml
-src
-target
